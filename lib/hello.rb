@@ -1,7 +1,7 @@
-def hello_t(array)
+def hello_t(haveto)
   i = 0
-  while i < array.length 
-    yield array[i]
+  while i < haveto.length 
+    yield haveto[i]
     i = i + 1
   end
 end
