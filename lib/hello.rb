@@ -4,6 +4,7 @@ def hello_t(haveto)
     yield haveto[i]
     i = i + 1
   end
+  haveto
 end
 
 # call your method here!
